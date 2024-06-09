@@ -4,7 +4,7 @@
 git submodule update --init
 
 # 下载 YOLOv5 需要的模型文件
-wget https://github.com/ultralytics/yolov5/releases/download/v6.2/yolov5m.pt -O ./yolov5/yolov5m.pt
+wget https://github.com/ultralytics/yolov5/releases/download/v6.2/yolov5m.pt
 
 # 进入 YOLOv5 项目，导出 ONNX 模型
 cd yolov5
